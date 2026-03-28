@@ -13,4 +13,6 @@
 
 ## Current State
 
-No centralized incubation records yet. Add the first selected ideas and prototypes here.
+- `voice-notes-assistant`: `prototyping`
+  - thesis: turn raw voice notes into structured, useful outputs automatically
+  - status: active prototype already present in the org

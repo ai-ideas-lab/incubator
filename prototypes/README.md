@@ -13,3 +13,9 @@ For each prototype, record:
 Recommended naming:
 
 - `proto-<slug>`
+
+## Current Prototypes
+
+| Repository | Thesis | Stage |
+| --- | --- | --- |
+| [`voice-notes-assistant`](https://github.com/ai-ideas-lab/voice-notes-assistant) | Turn unstructured voice notes into organized summaries and action-ready output. | prototyping |
