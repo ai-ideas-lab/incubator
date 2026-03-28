@@ -1,0 +1,34 @@
+name: Prototype Proposal
+description: Promote an idea into an active prototype.
+title: "[proto] "
+labels:
+  - prototype
+body:
+  - type: input
+    id: repo_name
+    attributes:
+      label: Proposed repo name
+      placeholder: proto-example
+    validations:
+      required: true
+  - type: textarea
+    id: thesis
+    attributes:
+      label: Thesis
+      description: What product thesis is being tested?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is in scope for the first prototype?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Main risks
+      description: What could invalidate the thesis quickly?
+    validations:
+      required: true

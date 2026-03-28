@@ -1,0 +1,41 @@
+name: Idea Intake
+description: Propose a new AI product idea for incubation.
+title: "[idea] "
+labels:
+  - idea
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What concrete user problem exists?
+    validations:
+      required: true
+  - type: textarea
+    id: user
+    attributes:
+      label: User
+      description: Who specifically has this problem?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: AI Workflow
+      description: How does AI materially improve the workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: prototype
+    attributes:
+      label: MVP Prototype
+      description: What is the smallest prototype that proves the core loop?
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation
+      description: How will we know this is worth continuing?
+    validations:
+      required: true
